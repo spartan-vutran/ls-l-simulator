@@ -19,42 +19,12 @@
 
 #define MAX_SIZE 255
 
-//Constant definition
-// const int perm[3]={ACL_READ,ACL_WRITE, ACL_EXECUTE};
-// const char perm_char[3]= {'r','w','x'};
-// const int file_perms[3]={ACL_USER_OBJ,ACL_GROUP_OBJ,ACL_OTHER};
-
-// int is_contained(const int* arr, int value){
-//   int size = sizeof(arr)/sizeof(int)+1;
-
-//   for(int i =0; i<size; i++){
-//     if(value == arr[i])
-//       return i;
-//   }
-
-//   return -1;
-// }
-
-// char* conv_tag_i2c(int tag){
-//     switch(tag){
-//       case(ACL_UNDEFINED_TAG):
-//         return "Undefine";
-//       case(ACL_USER_OBJ):
-//         return "Owner";
-//       case(ACL_USER):
-//         return "User"
-//       #define ACL_USER		(0x02)
-// #define ACL_GROUP_OBJ		(0x04)
-// #define ACL_GROUP		(0x08)
-// #define ACL_MASK		(0x10)
-// #define ACL_OTHER		(0x20)
-//     }
-
-// }
 
 
 
-//*************Permission set operation***************
+
+
+//*************IDIOT CODE BUT I PUT HERE TO REMEMBER HOW IDIOT AM I*************
 // char* convert_perm_i2c(int* perm){
 //   char * cperm = (char*)malloc(3*sizeof(char));
 //   for(int i=0; i<3 ; i++){
